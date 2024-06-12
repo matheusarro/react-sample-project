@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint", // ESLint
+    "esbenp.prettier-vscode", // Prettier - Code formatter
+    "richie5um2.vscode-sort-json", // Sort JSON Objects
+    "formulahendry.auto-rename-tag", // Auto Rename Tag
+    "eamodio.gitlens", // GitLens
+    "IronGeek.vscode-env" // ENV
+  ],
+  "unwantedRecommendations": []
+}

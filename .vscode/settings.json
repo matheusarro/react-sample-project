@@ -1,0 +1,23 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 120,
+
+  "files.associations": {
+    "*.env.development": "env",
+    "*.env.local": "env",
+    "*.env.production": "env",
+    "*.env.staging": "env"
+  },
+
+  "search.exclude": {
+    "**/build": true,
+    "**/node_modules": true
+  }
+}
