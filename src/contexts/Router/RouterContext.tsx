@@ -2,7 +2,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import Home from '@/pages/Home/Home';
 
-const ReactRouterProvider = () => {
+const RouterContext = () => {
   const router = createBrowserRouter([
     {
       path: '/',
@@ -13,4 +13,4 @@ const ReactRouterProvider = () => {
   return <RouterProvider router={router} />;
 };
 
-export default ReactRouterProvider;
+export default RouterContext;

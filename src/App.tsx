@@ -1,12 +1,11 @@
-import ReactQueryClientProvider from '@/contexts/ReactQueryClient';
-
-import ReactRouterProvider from './contexts/ReactRouter';
+import QueryContext from './contexts/Query/QueryContext';
+import RouterContext from './contexts/Router/RouterContext';
 
 function App() {
   return (
-    <ReactQueryClientProvider>
-      <ReactRouterProvider />
-    </ReactQueryClientProvider>
+    <QueryContext>
+      <RouterContext />
+    </QueryContext>
   );
 }
 
