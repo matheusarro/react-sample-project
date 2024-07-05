@@ -18,9 +18,12 @@ module.exports = {
     project: ['./tsconfig.json', './tsconfig.node.json'],
     tsconfigRootDir: __dirname,
   },
-  plugins: ['react-refresh'],
+  plugins: ['react-refresh', 'simple-import-sort', 'unused-imports'],
   rules: {
     'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
+    'simple-import-sort/imports': 'error',
+    'simple-import-sort/exports': 'error',
+    'unused-imports/no-unused-imports': 'error',
   },
   settings: {
     react: {
