@@ -1,10 +1,11 @@
 import ReactQueryClientProvider from '@/contexts/ReactQueryClient';
-import Home from '@/pages/Home/Home';
+
+import ReactRouterProvider from './contexts/ReactRouter';
 
 function App() {
   return (
     <ReactQueryClientProvider>
-      <Home />
+      <ReactRouterProvider />
     </ReactQueryClientProvider>
   );
 }
