@@ -1,7 +1,9 @@
+import './Home.css';
+
 import { useState } from 'react';
+
 import reactLogo from '@/assets/react.svg';
 import viteLogo from '@/assets/vite.svg';
-import './Home.css';
 
 function Home() {
   const [count, setCount] = useState(0);

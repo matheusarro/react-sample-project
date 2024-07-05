@@ -1,5 +1,6 @@
 import axios, { AxiosResponse } from 'axios';
-import { AUTH_METHOD } from '../constants';
+
+import { AUTH_METHOD } from '@/constants';
 import { getStoredToken } from '@/utils/auth';
 
 const api = axios.create({
